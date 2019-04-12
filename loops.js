@@ -14,10 +14,9 @@ function whileLoop(n) {
 } 
  return "done"} 
  
- function doWhileLoop(num) {
+ function doWhileLoop(num) { let incrementVariable = 0
    do {console.log("I run once regardless.")}
-  while (incrementVariable() < 0)
-  return incrementVariable}
+  while (incrementVariable() < num)}
  
   
 
