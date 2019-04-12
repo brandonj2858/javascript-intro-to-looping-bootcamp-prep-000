@@ -14,7 +14,7 @@ function whileLoop(n) {
 } 
  return "done"} 
  
- function doWhileLoop(num) { let incrementVariable()
+ function doWhileLoop(num) { let incrementVariable = num
    do {console.log("I run once regardless.")}
   while (incrementVariable() < num)}
  
