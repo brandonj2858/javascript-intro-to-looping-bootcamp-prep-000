@@ -24,7 +24,6 @@ function whileLoop(n) {
    
    do {console.log("I run once regardless.")}
    while (i < num)
-   return i
    
  
   
