@@ -23,7 +23,7 @@ function whileLoop(n) {
    
    
    do {console.log("I run once regardless.")}
-   while (i < num)
+   while (i > num)
    
  
   
