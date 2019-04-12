@@ -21,7 +21,7 @@ function whileLoop(n) {
      return i
    }}
    
-   for (var i = 0; i < 1; --i)
+   for (var i = 0; i < 1;)
    do {console.log("I run once regardless.")}
    while (incrementVariable() < num)
  
