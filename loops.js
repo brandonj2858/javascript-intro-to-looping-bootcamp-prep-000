@@ -12,11 +12,13 @@ function whileLoop(n) {
 
   while (countdown > 0) {console.log(--countdown)
 } 
- return "done"}
+ return "done"} 
  
-var incrementVariable = function doWhileLoop(num) {
+ function doWhileLoop(num) {
    do {console.log("I run once regardless.")}
-  while (incrementVariable() < num)}
+  while (incrementVariable() < num)} {
+    return incrementVariable
+  }
   
 
 
